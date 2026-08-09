@@ -1,0 +1,1 @@
+{"name":"fullstack-ai-saas","private":true,"version":"1.0.0","packageManager":"pnpm@10.12.1","scripts":{"dev":"concurrently -n api,web -c cyan,magenta \"pnpm --filter @signaldesk/api dev\" \"pnpm --filter @signaldesk/web dev\"","build":"pnpm -r build","typecheck":"pnpm -r typecheck","test":"pnpm -r test"},"devDependencies":{"concurrently":"^9.2.0","typescript":"^5.8.3"}}
